@@ -96,7 +96,7 @@ The generated notes follow this structure:
 
 ## License
 
-[Your License] - See the LICENSE file for details.
+MIT license
 
 ## Acknowledgements
 

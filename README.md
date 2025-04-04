@@ -28,8 +28,8 @@ https://github.com/user-attachments/assets/eac0bcb7-dd5b-4ba0-8a82-2af5614e1da7
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-lecture-notes-generator.git
-cd ai-lecture-notes-generator
+git clone https://github.com/Abdulllah-Rizwan/AI-Lecture-s-Note-Generator.git
+cd AI-Lecture-s-Note-Generator
 
 # Install dependencies
 pip install -r requirements.txt

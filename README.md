@@ -14,7 +14,7 @@ Transform lecture audio into structured, comprehensive notes using AI.
 
 
 
-https://github.com/user-attachments/assets/eac0bcb7-dd5b-4ba0-8a82-2af5614e1da7
+https://github.com/user-attachments/assets/0f1fadb7-52ef-4be2-a866-d8085a37aa6d
 
 
 
@@ -28,27 +28,30 @@ https://github.com/user-attachments/assets/eac0bcb7-dd5b-4ba0-8a82-2af5614e1da7
 
 ```bash
 # Clone the repository
-git clone https://github.com/Abdulllah-Rizwan/AI-Lecture-s-Note-Generator.git
-cd AI-Lecture-s-Note-Generator
+git clone https://github.com/Abdulllah-Rizwan/AI_Lecture-s-Note-Generator.git
+cd AI-Lecture-Notes-Generator
 
 # Install dependencies
-pip install -r requirements.txt
+pip install requests torch bitsandbytes transformers sentencepiece accelerate gradio httpx==0.27.2
 ```
 
 ## Usage
 
-### Option 1: Run the web interface
+### Option 1: Run the Jupyter Notebook
 
-```python
-python app.py
+```bash
+jupyter notebook "AI Lecture Notes Generator.ipynb"
 ```
 
-Then open your browser and navigate to the displayed URL (typically http://127.0.0.1:7860/).
+Run all cells in the notebook to start the Gradio interface, then interact with the application through the displayed URL (typically http://127.0.0.1:7860/).
 
-### Option 2: Use the API programmatically
+### Option 2: Use the functions directly in your code
+
+You can import the functions from the notebook into your own Python code:
 
 ```python
-from lecture_notes_generator import process_audio
+# Import the necessary functions
+from AI_Lecture_Notes_Generator import process_audio
 
 # Generate notes from an audio file
 notes = process_audio("path_to_lecture_audio.mp3")
@@ -96,7 +99,7 @@ The generated notes follow this structure:
 
 ## License
 
-MIT license
+MIT License.
 
 ## Acknowledgements
 
